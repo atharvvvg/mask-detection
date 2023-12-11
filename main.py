@@ -3,7 +3,7 @@ import time
 import winsound
 
 #import face data given by opencv by default
-nose_cap=cv2.CascadeClassifier("C:/Users/athar/AppData/Roaming/Python/Python311/site-packages/cv2/data/haarcascade_mcs_nose.xml")
+nose_cap=cv2.CascadeClassifier(<<input location for haarcascade_mcs_nose.xml>>)
 
 #to open camera feed
 video_cap=cv2.VideoCapture(0)
